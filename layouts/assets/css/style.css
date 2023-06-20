@@ -1,0 +1,104 @@
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0;
+    background-color: #b9bdee;
+}
+
+a {
+    text-decoration: none;
+}
+
+aside {
+    height: 100%;
+    width: 200px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #5252aa;
+}
+
+header {
+    text-align: center;
+    padding: 20px 0;
+}
+
+.brand {
+    width: 80px;
+}
+
+.user {
+    font-weight: bold;
+    padding-top: 10px;
+}
+
+main {
+    margin-left: 210px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav a {
+    padding: 10px 20px;
+    margin: 5px 0 5px 0;
+    display: block;
+    color: #000000;
+}
+
+nav a:hover {
+    background-color: #38388b;
+}
+
+nav .icon {
+    width: 25px;
+    float: left;
+    padding-right: 10px;
+}
+
+.info {
+    background-color: #5252aa;
+    padding: 20px;
+    margin-top: 10px;
+}
+
+table {
+    margin: 15px 0;
+    border: 1px solid #b9bdee;
+    border-collapse: collapse;
+    width: 75%;
+}
+
+table th {
+    border: 1px solid #5374a5;
+    padding: 8px;
+    background-color: #5252aa;
+}
+
+table td {
+    border: 1px solid #5374a5;
+    padding: 8px;
+}
+
+.btn {
+    background-color: #262691;
+    border-radius: 4px;
+    color: #000000;
+    padding: 5px;
+}
+
+.btn:hover {
+    background-color: #262691;
+}
+
+footer {
+    position: fixed;
+    bottom: 0px;
+    padding: 20px 0 20px 10px;
+    background-color: #5252aa;
+    width: 100%;
+    border-top: 1px solid #5252aa;
+    color: #000000;
+}

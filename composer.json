@@ -1,0 +1,17 @@
+{
+    "name": "irma/uts_irma",
+    "description": "UTS Pemrograman Berbasis Web Lanjutan",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        }
+    },
+    "authors": [
+        {
+            "name": "irma",
+            "email": "irmalistiani1003@gmail.com"
+        }
+    ],
+    "require": {}
+}
